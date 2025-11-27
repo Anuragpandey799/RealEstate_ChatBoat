@@ -1,0 +1,41 @@
+# ========= PYTHON =========
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+*.log
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# ========= DJANGO =========
+*.pot
+*.pyc
+media/
+staticfiles/
+local_settings.py
+
+# ========= NODE / FRONTEND =========
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+
+# Vite
+.vite/
+.DS_Store
+
+# ========= ENV / SECRETS =========
+.env
+*.env
+
+# ========= EDITOR / SYSTEM FILES =========
+.vscode/
+.idea/
+*.swp
+Thumbs.db
