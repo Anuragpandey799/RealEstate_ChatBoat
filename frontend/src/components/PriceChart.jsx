@@ -45,5 +45,6 @@ export default function PriceChart({ chart }) {
         </ResponsiveContainer>
       </div>
     </div>
+    
   );
 }
