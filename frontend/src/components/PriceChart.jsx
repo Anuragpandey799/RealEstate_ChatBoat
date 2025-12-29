@@ -36,10 +36,12 @@ export default function PriceChart({ chart }) {
             <YAxis />
             <Tooltip />
             <Line
+            
               type="monotone"
               dataKey="price"
               stroke="blue"
               strokeWidth={2}
+
             />
           </LineChart>
         </ResponsiveContainer>
